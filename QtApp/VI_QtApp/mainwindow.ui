@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>526</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>551</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Virtual Instrument v2 - UTN FRC</string>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>791</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>801</width>
+      <height>551</height>
+     </size>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::North</enum>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Config</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>260</y>
+        <width>75</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Send</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>260</y>
+        <width>151</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>60</y>
+        <width>231</width>
+        <height>161</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>30</y>
+        <width>91</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Data Received</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>31</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_2">
+      <property name="geometry">
+       <rect>
+        <x>122</x>
+        <y>60</y>
+        <width>101</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_3">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>90</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_4">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>120</y>
+        <width>101</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_5">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>150</y>
+        <width>101</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>30</y>
+        <width>49</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Port</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>60</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Baudrate</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>90</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Data Bits</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>120</y>
+        <width>51</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Stop Bits</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>150</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Parity</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>180</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Flow Control</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_6">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>180</y>
+        <width>101</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>260</y>
+        <width>75</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Connect</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>260</y>
+        <width>75</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Disconnect</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>260</y>
+        <width>75</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Refresh</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>220</y>
+        <width>61</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>220</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Code</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>30</y>
+        <width>75</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Clear</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Test</string>
+     </attribute>
+     <widget class="QLCDNumber" name="adc0">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>30</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="smallDecimalPoint">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>70</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>A1</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="adc1">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>70</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>30</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>A0</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QSlider" name="horizontalSlider">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>230</y>
+        <width>131</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="lcd1">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>190</y>
+        <width>64</width>
+        <height>23</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPID">
+    <property name="title">
+     <string>Setup</string>
+    </property>
+    <widget class="QMenu" name="menuPort">
+     <property name="title">
+      <string>Port</string>
+     </property>
+     <addaction name="actionCOM1_2"/>
+     <addaction name="actionCOM2"/>
+     <addaction name="actionCOM3"/>
+     <addaction name="actionCOM4"/>
+     <addaction name="actionCOM5_2"/>
+     <addaction name="actionCOM6"/>
+     <addaction name="actionCOM7"/>
+     <addaction name="actionCOM8"/>
+     <addaction name="actionCOM9"/>
+    </widget>
+    <widget class="QMenu" name="menuBaudrate">
+     <property name="title">
+      <string>Baudrate</string>
+     </property>
+     <addaction name="action9600_2"/>
+     <addaction name="action115200_2"/>
+    </widget>
+    <widget class="QMenu" name="menuData_Bits">
+     <property name="title">
+      <string>Data Bits</string>
+     </property>
+     <addaction name="action7_bits"/>
+     <addaction name="action8_bits"/>
+     <addaction name="action9_bits"/>
+    </widget>
+    <widget class="QMenu" name="menuParity">
+     <property name="title">
+      <string>Parity</string>
+     </property>
+     <addaction name="actionnone"/>
+     <addaction name="actioneven"/>
+     <addaction name="actionodd"/>
+    </widget>
+    <widget class="QMenu" name="menuStop_Bits">
+     <property name="title">
+      <string>Stop Bits</string>
+     </property>
+     <addaction name="action1_2"/>
+     <addaction name="action2"/>
+     <addaction name="actionnone_2"/>
+    </widget>
+    <widget class="QMenu" name="menuFlow_Control">
+     <property name="title">
+      <string>Flow Control</string>
+     </property>
+     <addaction name="actionnone_3"/>
+     <addaction name="actionDTR"/>
+     <addaction name="actionCTS"/>
+     <addaction name="actionDTR_CTS"/>
+    </widget>
+    <addaction name="menuPort"/>
+    <addaction name="menuData_Bits"/>
+    <addaction name="menuBaudrate"/>
+    <addaction name="menuParity"/>
+    <addaction name="menuStop_Bits"/>
+    <addaction name="menuFlow_Control"/>
+    <addaction name="separator"/>
+    <addaction name="actionConnect"/>
+    <addaction name="actionDisconnect"/>
+    <addaction name="actionRefresh"/>
+   </widget>
+   <addaction name="menuPID"/>
+  </widget>
+  <action name="actionCOM5">
+   <property name="text">
+    <string>COM5</string>
+   </property>
+  </action>
+  <action name="actionCOM1">
+   <property name="text">
+    <string>COM1</string>
+   </property>
+  </action>
+  <action name="action9600">
+   <property name="text">
+    <string>9600</string>
+   </property>
+  </action>
+  <action name="action115200">
+   <property name="text">
+    <string>115200</string>
+   </property>
+  </action>
+  <action name="action1">
+   <property name="text">
+    <string>1</string>
+   </property>
+  </action>
+  <action name="actionNo_StopBit">
+   <property name="text">
+    <string>No</string>
+   </property>
+  </action>
+  <action name="actionNo">
+   <property name="text">
+    <string>No</string>
+   </property>
+  </action>
+  <action name="actionYes">
+   <property name="text">
+    <string>Yes</string>
+   </property>
+  </action>
+  <action name="actionNo_2">
+   <property name="text">
+    <string>No</string>
+   </property>
+  </action>
+  <action name="actionCR_LR">
+   <property name="text">
+    <string>CR\LR</string>
+   </property>
+  </action>
+  <action name="actionCLE">
+   <property name="text">
+    <string>CLE</string>
+   </property>
+  </action>
+  <action name="actionLR">
+   <property name="text">
+    <string>LR</string>
+   </property>
+  </action>
+  <action name="actionCR">
+   <property name="text">
+    <string>CR</string>
+   </property>
+  </action>
+  <action name="actionCOM1_2">
+   <property name="text">
+    <string>COM1</string>
+   </property>
+  </action>
+  <action name="actionCOM2">
+   <property name="text">
+    <string>COM2</string>
+   </property>
+  </action>
+  <action name="actionCOM3">
+   <property name="text">
+    <string>COM3</string>
+   </property>
+  </action>
+  <action name="actionCOM4">
+   <property name="text">
+    <string>COM4</string>
+   </property>
+  </action>
+  <action name="actionCOM5_2">
+   <property name="text">
+    <string>COM5</string>
+   </property>
+  </action>
+  <action name="actionCOM6">
+   <property name="text">
+    <string>COM6</string>
+   </property>
+  </action>
+  <action name="actionCOM7">
+   <property name="text">
+    <string>COM7</string>
+   </property>
+  </action>
+  <action name="actionCOM8">
+   <property name="text">
+    <string>COM8</string>
+   </property>
+  </action>
+  <action name="actionCOM9">
+   <property name="text">
+    <string>COM9</string>
+   </property>
+  </action>
+  <action name="action9600_2">
+   <property name="text">
+    <string>9600</string>
+   </property>
+  </action>
+  <action name="action115200_2">
+   <property name="text">
+    <string>115200</string>
+   </property>
+  </action>
+  <action name="actionConnect">
+   <property name="text">
+    <string>Connect</string>
+   </property>
+  </action>
+  <action name="actionDisconnect">
+   <property name="text">
+    <string>Disconnect</string>
+   </property>
+  </action>
+  <action name="actionRefresh">
+   <property name="text">
+    <string>Refresh</string>
+   </property>
+  </action>
+  <action name="action7_bits">
+   <property name="text">
+    <string>7 bits</string>
+   </property>
+  </action>
+  <action name="action8_bits">
+   <property name="text">
+    <string>8 bits</string>
+   </property>
+  </action>
+  <action name="action9_bits">
+   <property name="text">
+    <string>9 bits</string>
+   </property>
+  </action>
+  <action name="actionnone">
+   <property name="text">
+    <string>none</string>
+   </property>
+  </action>
+  <action name="actioneven">
+   <property name="text">
+    <string>even</string>
+   </property>
+  </action>
+  <action name="actionodd">
+   <property name="text">
+    <string>odd</string>
+   </property>
+  </action>
+  <action name="action1_2">
+   <property name="text">
+    <string>1</string>
+   </property>
+  </action>
+  <action name="action2">
+   <property name="text">
+    <string>2</string>
+   </property>
+  </action>
+  <action name="actionnone_2">
+   <property name="text">
+    <string>none</string>
+   </property>
+  </action>
+  <action name="actionnone_3">
+   <property name="text">
+    <string>none</string>
+   </property>
+  </action>
+  <action name="actionDTR">
+   <property name="text">
+    <string>DTR</string>
+   </property>
+  </action>
+  <action name="actionCTS">
+   <property name="text">
+    <string>CTS</string>
+   </property>
+  </action>
+  <action name="actionDTR_CTS">
+   <property name="text">
+    <string>DTR/CTS</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

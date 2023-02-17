@@ -1,0 +1,101 @@
+Added Component: Designator=J1(PIN1)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=J2(RCA/4.5-H2)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.mouser.com/kobiconn/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetDocument"; Value = "7-Jul-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DrillAndSlotSize"; Value = "Corresponds to nominal value."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "15-Jul-2004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Component Replaced."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDocument"; Value = "7-Jul-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "161"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB_Layout"; Value = "Complies with manufacturer's recommendation."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "15-Jul-2004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=J3(MCX5.08-H5)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.amphenolrf.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetDocument"; Value = "30-May-2003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DrillSize"; Value = "Corresponds to nominal value."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "15-Jul-2004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Component Replaced."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDocument"; Value = "04-Jul-1999"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "919-119J-51AX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB_Layout"; Value = "Complies with manufacturer's recommendation."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "15-Jul-2004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=J4(ST-3150-5N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://domino.kycon.com/internet/Products.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetDocument"; Value = "07-Mar-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Dec-2003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "PCB Footprint replaced."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "5-Jan-2004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P1(HDR1X2)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P2(SMB_V-RJ45)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P3(MHDR1X14)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P4(PIN1)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=J3-1
+Added Pin To Net: NetName=NetJ1_1 Pin=U1-16
+Added Net: Name=NetJ1_1
+Added Pin To Net: NetName=NetJ2_1A Pin=J2-1A
+Added Pin To Net: NetName=NetJ2_1A Pin=J2-2B
+Added Net: Name=NetJ2_1A
+Added Pin To Net: NetName=NetJ3_2 Pin=J3-2
+Added Pin To Net: NetName=NetJ3_2 Pin=J3-3
+Added Pin To Net: NetName=NetJ3_2 Pin=J3-4
+Added Pin To Net: NetName=NetJ3_2 Pin=P3-1
+Added Pin To Net: NetName=NetJ3_2 Pin=P4-1
+Added Net: Name=NetJ3_2
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-1
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-1A
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-1B
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-2
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-2A
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-2B
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-3
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-3A
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-3B
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-4
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-4A
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-4B
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-5
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-5A
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-5B
+Added Net: Name=NetJ4_1
+Added Pin To Net: NetName=NetP1_1 Pin=P1-1
+Added Pin To Net: NetName=NetP1_1 Pin=P1-2
+Added Pin To Net: NetName=NetP1_1 Pin=U1-1
+Added Pin To Net: NetName=NetP1_1 Pin=U1-4
+Added Pin To Net: NetName=NetP1_1 Pin=U1-5
+Added Net: Name=NetP1_1
+Added Pin To Net: NetName=NetP2_1 Pin=P2-1
+Added Pin To Net: NetName=NetP2_1 Pin=P2-2
+Added Pin To Net: NetName=NetP2_1 Pin=P2-2
+Added Pin To Net: NetName=NetP2_1 Pin=P2-2
+Added Pin To Net: NetName=NetP2_1 Pin=P2-2
+Added Net: Name=NetP2_1
+Added Member To Class: ClassName=Schematic_1 Member=Component J1 Socket
+Added Member To Class: ClassName=Schematic_1 Member=Component J2 RCA
+Added Member To Class: ClassName=Schematic_1 Member=Component J3 COAX-F
+Added Member To Class: ClassName=Schematic_1 Member=Component J4 Phonejack Stereo SW
+Added Member To Class: ClassName=Schematic_1 Member=Component P1 Header 2
+Added Member To Class: ClassName=Schematic_1 Member=Component P2 SMB
+Added Member To Class: ClassName=Schematic_1 Member=Component P3 MHDR1X14
+Added Member To Class: ClassName=Schematic_1 Member=Component P4 Plug

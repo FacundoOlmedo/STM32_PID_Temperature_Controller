@@ -1,0 +1,36 @@
+
+  <Object type="Desktop.Xpc.Designer.InstrumentPanel, Desktop.Xpc.Designer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InstrumentPanel1" children="Controls">
+    <Object type="MW.Instruments.Scope, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Scope1" children="Controls">
+      <Property name="TargetName">signal1</Property>
+      <Property name="YAxesLimits">25, -25</Property>
+      <Property name="IsYTickVisible">True</Property>
+      <Property name="IsTimeTickVisible">True</Property>
+      <Property name="Location">65, 202</Property>
+      <Property name="Name">Scope1</Property>
+      <Property name="Size">533, 331</Property>
+    </Object>
+    <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED1" children="Controls">
+      <Property name="OutputValue">0</Property>
+      <Property name="BindingSrcObject" />
+      <Property name="BindingSrcType">None</Property>
+      <Property name="BindingSrcPath">
+      </Property>
+      <Property name="TargetName">
+      </Property>
+      <Property name="Size">32, 32</Property>
+      <Property name="Location">493, 67</Property>
+      <Property name="Name">LED1</Property>
+    </Object>
+    <Object type="MW.Instruments.Slider, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Slider1" children="Controls">
+      <Property name="BindingSrcType">Parameter</Property>
+      <Property name="BindingSrcPath">
+      </Property>
+      <Property name="TargetName">Value</Property>
+      <Property name="BindingSrcObject" />
+      <Property name="Rotation">X090</Property>
+      <Property name="Size">203, 64</Property>
+      <Property name="Location">101, 57</Property>
+      <Property name="Name">Slider1</Property>
+    </Object>
+    <Property name="ClientSize">1920, 1080</Property>
+  </Object>
